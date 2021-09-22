@@ -1,7 +1,7 @@
 # toDoList
 
 ### Summary
-toDoList is an React application that reads and writes to a JSON file. The app lets the user create a "user account" and a "to do list" for the respective user account"
+toDoList is an React application that lets the user create a "user account" and a "to do list" for the respective user account". It reads and writes to a JSON file
 
 ### Starting the program
 * start the json server at port 3004
