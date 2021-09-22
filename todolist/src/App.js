@@ -16,7 +16,7 @@ const App =()=>{
       <Route exact path='/'>
         <Home />
       </Route>
-      <Route path='/user/:id'>
+      <Route exact path='/user/:id'>
         <User />
       </Route>
     </Switch>

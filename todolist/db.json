@@ -1,14 +1,29 @@
-{   
-    "db":{
-        "count":1,
-
-        "users":[{
-        "key":1,
-        "name":"michael",
-        "todo":[
-            "buy groceries",
-            "work out"
-        ]}]
-    
+{
+  "people": [
+    {
+      "name": "john",
+      "id": 1,
+      "todo": [
+        [
+          "fasdf",
+          false
+        ]
+      ]
+    },
+    {
+      "name": "asdf",
+      "id": 2,
+      "todo": []
+    },
+    {
+      "name": "dsafsad",
+      "id": 3,
+      "todo": [
+        [
+          "asdfdsaf",
+          false
+        ]
+      ]
     }
-} 
+  ]
+}
