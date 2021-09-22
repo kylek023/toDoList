@@ -54,7 +54,7 @@ const deleteUser=((e,key,id)=>{
         <div>
             {listUsers && 
             <div>
-                <h3>List of Users</h3>
+                <h2>List of Users</h2>
                 <ul>
                 {listUsers.map((item,key) =>{
                     const url=`/user/${item.id}`
@@ -62,7 +62,7 @@ const deleteUser=((e,key,id)=>{
                     return(
                         <li key={key}>
                             <Link to={url}>{item.name}</Link>
-                            <button onClick={(e)=>deleteUser(e,key,item.id)} >X</button>
+                            <button className='itemBtn' onClick={(e)=>deleteUser(e,key,item.id)} >X</button>
 
                         </li>
                     )
@@ -74,7 +74,7 @@ const deleteUser=((e,key,id)=>{
             }
 
                     <form onSubmit={submitUser}>
-                        <input id='inputUser' value={inputUser} placeholder='Add new User' className='inputToDo' type='text' onChange={(e)=>setInputUser(e.target.value)} />
+                        <input id='inputUser' value={inputUser} required placeholder='Add new User' className='inputToDo' type='text' onChange={(e)=>setInputUser(e.target.value)} />
                         <button type='submit'>Submit</button>
                     </form>
 

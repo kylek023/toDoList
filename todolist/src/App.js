@@ -7,10 +7,15 @@ const App =()=>{
 
 
   return(
+    <div>
+  <h1>To-Do List</h1>
 
-  <div>
-    <BrowserRouter>
-    <h1><em>To-Do List</em></h1>
+  <div className="body">
+    <BrowserRouter >
+    <nav>
+      
+    </nav>
+    
 
     <Switch>
       <Route exact path='/'>
@@ -24,6 +29,7 @@ const App =()=>{
     
     </BrowserRouter>
 
+    </div>
     </div>
   )
 

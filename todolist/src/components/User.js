@@ -52,7 +52,7 @@ const User =()=>{
     return(
         <div>{user &&
          <div>
-            <h3>{user.name}'s to do list</h3>
+            <h2>{user.name}'s to do list</h2>
             <ul>
                 {user.todo.map((item,key) =>(
                     <li ke={key}>
@@ -62,7 +62,7 @@ const User =()=>{
             </ul>
 
         <form onSubmit={Submit}>
-            <input id='inputToDo' value={inputValue} placeholder='Add new things to do' className='inputToDo' type='text' onChange={(e)=>setInputValue(e.target.value)} />
+            <input id='inputToDo' value={inputValue} required placeholder='Add new things to do' className='inputToDo' type='text' onChange={(e)=>setInputValue(e.target.value)} />
             <button type='submit'>Submit</button>
         </form>
 

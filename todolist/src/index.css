@@ -1,0 +1,41 @@
+
+
+ul{
+    list-style: none;
+    padding-left: 0;
+
+
+}
+
+li{
+    margin:10px 0;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.itemBtn{
+    margin-left: 5px;
+}
+.body{
+    font-family: 'Merriweather',serif ;
+    background-color: rgba(241, 227, 255, .45);
+    border-radius: 5%;
+    
+    width:750px;
+    text-align: center;
+    margin: 100px auto 0px;
+    padding: 20px 0 40px;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+h1{
+    font-family: 'Merriweather',serif ;
+
+    width:max-content;
+    margin: 50px auto 0;
+}
