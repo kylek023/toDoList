@@ -16,8 +16,11 @@ useEffect(()=>{
 
 
 const submitUser=e=>{
-    const lastId=listUsers[listUsers.length-1].id+1
     e.preventDefault()
+
+
+    let lastId
+    listUsers.length!=0 ? lastId= listUsers[listUsers.length-1].id+1 : lastId=1
     const userNew = {
         "name":inputUser,
         "id":lastId,
@@ -66,13 +69,15 @@ const deleteUser=((e,key,id)=>{
                 })}
                 </ul>
 
-            <form onSubmit={submitUser}>
+
+            </div>
+            }
+
+                    <form onSubmit={submitUser}>
                         <input id='inputUser' value={inputUser} placeholder='Add new User' className='inputToDo' type='text' onChange={(e)=>setInputUser(e.target.value)} />
                         <button type='submit'>Submit</button>
                     </form>
 
-            </div>
-            }
         </div>
     )
 }

@@ -1,14 +1,9 @@
 {
   "people": [
     {
-      "name": "john",
+      "name": "asdf",
       "id": 1,
-      "todo": [
-        [
-          "fasdf",
-          false
-        ]
-      ]
+      "todo": []
     },
     {
       "name": "asdf",
@@ -16,14 +11,9 @@
       "todo": []
     },
     {
-      "name": "dsafsad",
+      "name": "asdf",
       "id": 3,
-      "todo": [
-        [
-          "asdfdsaf",
-          false
-        ]
-      ]
+      "todo": []
     }
   ]
 }
