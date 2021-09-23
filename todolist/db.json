@@ -1,36 +1,29 @@
 {
   "people": [
     {
-      "name": "micahel",
-      "id": 1,
-      "todo": [
-        [
-          "asdfasd",
-          false
-        ],
-        [
-          "sdafasdf",
-          false
-        ],
-        [
-          "asdf",
-          false
-        ]
-      ]
-    },
-    {
       "name": "sadf",
       "id": 5,
-      "todo": [
-        [
-          "have fun",
-          false
-        ],
-        [
-          "play ball",
-          false
-        ]
-      ]
+      "todo": []
+    },
+    {
+      "name": "jkhkj\\",
+      "id": 6,
+      "todo": []
+    },
+    {
+      "name": "nmbn",
+      "id": 7,
+      "todo": []
+    },
+    {
+      "name": "john",
+      "id": 8,
+      "todo": []
+    },
+    {
+      "name": "john",
+      "id": 9,
+      "todo": []
     }
   ]
 }

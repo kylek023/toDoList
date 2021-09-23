@@ -3,10 +3,11 @@
 
 .navBar{
     display: flex;
-    width: 450px;
+    width: 550px;
     justify-content: space-between;
     align-items:flex-end;
     margin: 100px auto 0;
+    padding:0;
     
 }
 .title{
@@ -20,7 +21,7 @@
 ul{
 
     list-style: none;
-    padding-left: 0;
+    padding:10px 35px 0;
 
 
 }
@@ -39,9 +40,8 @@ a{
     color: black;
 }
 
-.itemBtn{
-    margin-left: 5px;
-}
+
+
 .body{
     font-family: 'Merriweather',serif ;
     background-color: rgba(241, 227, 255, .45);

@@ -10,7 +10,7 @@ const App =()=>{
   return(
     <div>
   <BrowserRouter >
-    <span className='navBar  '> <p className="title"><strong>To-Do List</strong></p> <p ><Link className='home' to='/'>Home</Link></p>
+    <span className='navBar'> <p className="title"><strong>To-Do List</strong></p> <p ><Link className='home' to='/'>Home</Link></p>
   </span>
 
   <div className="body">

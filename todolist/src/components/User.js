@@ -58,7 +58,7 @@ const User =()=>{
                     <li ke={key}>
                             <div className='liDiv'>
 
-                        {item} <button onClick={(e)=>Delete(e,key)} >X</button>
+                        {item} <button className='btn btn-secondary btn-sm' onClick={(e)=>Delete(e,key)} >X</button>
                         </div>
                     </li>
                 ))}

@@ -62,8 +62,8 @@ const deleteUser=((e,key,id)=>{
                     return(
                         <li key={key}>
                             <div className='liDiv'>
-                            <Link to={url}><em>{item.name}</em></Link>
-                            <button className='itemBtn' onClick={(e)=>deleteUser(e,key,item.id)} >X</button>
+                            <Link to={url}>{item.name}</Link>
+                            <button className='btn btn-secondary btn-sm' onClick={(e)=>deleteUser(e,key,item.id)} >X</button>
                             </div>
                         </li>
                     )
