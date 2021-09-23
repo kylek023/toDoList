@@ -52,18 +52,23 @@ const User =()=>{
     return(
         <div>{user &&
          <div>
-            <h2>{user.name}'s to do list</h2>
+            <h5>{user.name}'s to do list</h5>
             <ul>
                 {user.todo.map((item,key) =>(
                     <li ke={key}>
+                            <div className='liDiv'>
+
                         {item} <button onClick={(e)=>Delete(e,key)} >X</button>
+                        </div>
                     </li>
                 ))}
             </ul>
 
         <form onSubmit={Submit}>
-            <input id='inputToDo' value={inputValue} required placeholder='Add new things to do' className='inputToDo' type='text' onChange={(e)=>setInputValue(e.target.value)} />
-            <button type='submit'>Submit</button>
+        <div class="input-group mb-3">
+            <input id='inputToDo' autofocus value={inputValue} required placeholder='Add new things to do' className='form-control' type='text' onChange={(e)=>setInputValue(e.target.value)} />
+            <button className='btn btn-outline-secondary'  type='submit'>Submit</button>
+            </div>
         </form>
 
          

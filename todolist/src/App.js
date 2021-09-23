@@ -1,17 +1,19 @@
 import React, {useState, useEffect} from 'react'
-import { BrowserRouter,Route, Switch } from 'react-router-dom'
+import { BrowserRouter,Route, Switch ,Link} from 'react-router-dom'
 import Home from './components/Home'
 import User from './components/User'
+
 
 const App =()=>{
 
 
   return(
     <div>
-  <h1>To-Do List</h1>
+  <BrowserRouter >
+    <span className='navBar  '> <p className="title"><strong>To-Do List</strong></p> <p ><Link className='home' to='/'>Home</Link></p>
+  </span>
 
   <div className="body">
-    <BrowserRouter >
     <nav>
       
     </nav>
@@ -27,9 +29,10 @@ const App =()=>{
     </Switch>
     
     
-    </BrowserRouter>
 
     </div>
+    </BrowserRouter>
+
     </div>
   )
 

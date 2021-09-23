@@ -54,16 +54,17 @@ const deleteUser=((e,key,id)=>{
         <div>
             {listUsers && 
             <div>
-                <h2>List of Users</h2>
+                <h5>List of Users</h5>
                 <ul>
                 {listUsers.map((item,key) =>{
                     const url=`/user/${item.id}`
 
                     return(
                         <li key={key}>
-                            <Link to={url}>{item.name}</Link>
+                            <div className='liDiv'>
+                            <Link to={url}><em>{item.name}</em></Link>
                             <button className='itemBtn' onClick={(e)=>deleteUser(e,key,item.id)} >X</button>
-
+                            </div>
                         </li>
                     )
                 })}
@@ -74,8 +75,10 @@ const deleteUser=((e,key,id)=>{
             }
 
                     <form onSubmit={submitUser}>
-                        <input id='inputUser' value={inputUser} required placeholder='Add new User' className='inputToDo' type='text' onChange={(e)=>setInputUser(e.target.value)} />
-                        <button type='submit'>Submit</button>
+                    <div class="input-group mb-3">
+                        <input autofocus id='inputUser'  value={inputUser} required placeholder='Add new User' className='form-control' type='text' onChange={(e)=>setInputUser(e.target.value)} />
+                        <button  className='btn btn-outline-secondary' type='submit'>Submit</button>
+                    </div>
                     </form>
 
         </div>

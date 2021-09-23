@@ -1,40 +1,36 @@
 {
   "people": [
     {
-      "name": "asdf",
+      "name": "micahel",
       "id": 1,
       "todo": [
         [
+          "asdfasd",
+          false
+        ],
+        [
+          "sdafasdf",
+          false
+        ],
+        [
           "asdf",
-          false
-        ],
-        [
-          "sadfsad",
-          false
-        ],
-        [
-          "have fun",
-          false
-        ],
-        [
-          "",
-          false
-        ],
-        [
-          "",
           false
         ]
       ]
     },
     {
-      "name": "asdf",
-      "id": 2,
-      "todo": []
-    },
-    {
-      "name": "dff\\",
-      "id": 4,
-      "todo": []
+      "name": "sadf",
+      "id": 5,
+      "todo": [
+        [
+          "have fun",
+          false
+        ],
+        [
+          "play ball",
+          false
+        ]
+      ]
     }
   ]
 }
